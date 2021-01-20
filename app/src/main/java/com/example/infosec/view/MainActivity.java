@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         errorTxt=findViewById(R.id.error_txt);
         btnAgain=findViewById(R.id.btn_again);
 
-
         getNewsFeed();
 
         btnAgain.setOnClickListener(new View.OnClickListener() {
