@@ -50,6 +50,7 @@ dependencies {
 
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit2RxJava2AdapterVersion"
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    testImplementation 'org.mockito:mockito-core:1.10.19'
 
     implementation "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
     implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
