@@ -44,8 +44,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
         holder.describtion.setText(articlesBean.getDescription());
         Glide.with(context)
                 .load(articlesBean.getUrlToImage())
-                .fitCenter()
-                .into(holder.newsImage);
+                 .into(holder.newsImage);
 
     }
 
